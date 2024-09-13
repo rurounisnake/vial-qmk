@@ -1,0 +1,11 @@
+#pragma once
+#define VIAL_KEYBOARD_UID {0x56, 0x45, 0x5E, 0x81, 0x2F, 0x09, 0x84, 0x16}
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 0}
+#define VIAL_UNLOCK_COMBO_COLS { 0, 0}
+
+#define OLED_DISPLAY_128X32
+#define I2C_DRIVER I2CD0
+#define I2C1_SDA_PIN GP4
+#define I2C1_SCL_PIN GP5
+
+#define OLED_BRIGHTNESS 220 // 255 max
